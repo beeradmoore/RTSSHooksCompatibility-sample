@@ -1,0 +1,6 @@
+.vs/
+bin/
+obj/
+*.obj
+publish/
+.config/
