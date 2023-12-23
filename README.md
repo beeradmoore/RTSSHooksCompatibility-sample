@@ -37,8 +37,8 @@ and adding
 </ItemGroup>
 ```
 
-[!NOTE] 
-`Condition="'$(Configuration)' == 'Release_RTSS_Disabled'"` is not needed. I added that part so I can export with and without `RTSSHooksCompatibility.obj`.
+> [!NOTE] 
+> `Condition="'$(Configuration)' == 'Release_RTSS_Disabled'"` is not needed. I added that part so I can export with and without `RTSSHooksCompatibility.obj`.
 
 
 #### Why is this using the standard MonoGame OpenGL Template?
