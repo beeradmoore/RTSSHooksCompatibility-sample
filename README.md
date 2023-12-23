@@ -2,7 +2,7 @@
 This repo is to show how its possible to disable RivaTuner Statistics Server (RTSS) from hooking your C# application by embedding a native static library that exports `RTSSHooksCompatibility` data. Currently with .NET you need to also enable NativeAOT to accomplish this.
 
 > [!IMPORTANT]  
-> Do NOT do anything I do here unless you have a very important reason to disable RTSS hooking.
+> Do NOT do anything I do here unless you have a very important reason to disable RTSS hooking. This won't prevent users from using RTSS with your application as they can just set `ForceHooking=1` in the `[Hooking]` section of either global or game specific profile.
 
 While the sample here is using a MonoGame I made this sample for use in [DLSS Swapper](https://github.com/beeradmoore/dlss-swapper), a WinUI3/WindowsAppSDK application. In general I do not recommend disabling RTSS for your games as it can report useful information to your end users and you should only do this if you have specific reasons to disable RTSS hooking.
 
